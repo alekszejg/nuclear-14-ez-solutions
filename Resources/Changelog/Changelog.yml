@@ -12342,3 +12342,10 @@ Entries:
   id: 6511
   time: '2026-10-08T22:22:25.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2066
+- author: Vixting
+  changes:
+    - type: Add
+      message: 'add gold & silver as sellables for encalve '
+  id: 6512
+  time: '2026-10-10T23:56:29.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2052
