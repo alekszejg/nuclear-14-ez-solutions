@@ -20,7 +20,7 @@
     wieldedSpeedModifier: 0.9
   - type: GunRequiresWield
   - type: WieldDelay # Misfits-change
-    baseDelay: 1
+    baseDelay: 0
     preventFiring: true
   - type: GunWieldBonus
     minAngle: -19 # Misfits-change

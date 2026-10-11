@@ -185,6 +185,8 @@
         - ReagentId: Fat
           Quantity: 8
 
+
+
 #Lasagna: 1 Tato, 1 Dough Slice, 1 Irradiated Meat, 1 Cheese Wedge -> 15 sec
 - type: entity
   parent: MisfitsFoodBase
@@ -200,18 +202,13 @@
       food:
         reagents:
         - ReagentId: Nutriment
-          Quantity: 25
-        - ReagentId: N14UncookedAnimalProteinsRad
+          Quantity: 30
+        - ReagentId: Protein
           Quantity: 10
-        - ReagentId: Fat
-          Quantity: 6
-        - ReagentId: UnstableMutagen
-          Quantity: 20
 
 #Milk Bread: 1 butter slice, 10u milk, 10u flour, 5u raiser -> 10 sec
 - type: entity
   parent: MisfitsFoodBase
-
   id: MisfitsFoodMilkBread
   components:
   - type: Food
@@ -399,6 +396,25 @@
         - ReagentId: Allicin
           Quantity: 4
 
+#- Kebab Slice: slice a kebab pilar
+- type: entity
+  parent: MisfitsFoodBase
+  id: MisfitsFoodKebabSlice
+  components:
+  - type: Food
+    eatMessage: food-desc-kebabSlice-eat
+  - type: Sprite
+    sprite: _Misfits/Objects/Consumable/Food/FoodStuffs.rsi
+    state: kebabSlice
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 12
+        - ReagentId: Protein
+          Quantity: 2
+
 #- Kebab Pilar: 5 raw brahmin steaks, 1 wood -> 30 sec
 - type: entity
   parent: MisfitsFoodBase
@@ -412,7 +428,7 @@
     sprite: _Misfits/Objects/Consumable/Food/FoodStuffs.rsi
     state: kebabPilar
   - type: SliceableFood
-    slice: N14FoodMeatBrahminCutletCooked
+    slice: MisfitsFoodKebabSlice
     count: 15
   - type: SolutionContainerManager
     solutions:
@@ -439,13 +455,12 @@
         reagents:
         - ReagentId: BlackberryJam
           Quantity: 10
-        - ReagentId: PickledJalapenos
-          Quantity: 10
+        - ReagentId: ExtractGlowpepper
+          Quantity: 15
 
 #- VaultTech Lolipop: 10u sugar, 1 paper -> 5 sec
 - type: entity
   parent: MisfitsFoodBase
-
   id: MisfitsFoodLollipop_VaultTech
   components:
   - type: Food

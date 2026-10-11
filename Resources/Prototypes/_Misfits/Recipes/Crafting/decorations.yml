@@ -399,6 +399,7 @@
   placementMode: SnapgridCenter
 
 # #Misfits Add - 509th Brotherhood of Steel standing flag recipe
+# Official lore link to Operation Sun Burst via CCTV eye bot cam: https://www.youtube.com/watch?v=Z0wL6DXIvoc
 - type: construction
   name: Flag of the 509th Brotherhood of Steel
   id: MisfitsDecorationFlagBoSBonneville509
@@ -411,6 +412,22 @@
   icon:
     sprite: _Misfits/Structures/Decoration/bos509thflag.rsi
     state: bos509thflag
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+
+- type: construction
+  name: Flag of New Canaan
+  id: MisfitsDecorationFlagNewCanaan
+  graph: DecorationFlagNewCanaan
+  startNode: start
+  targetNode: FlagNewCanaan
+  # category: construction-category-decorations
+  description: A navy blue flag with a White Ring, Stars and the Angel. It is the flag of the people of New Canaan.
+  hide: false
+  icon:
+    sprite: _Misfits/Structures/Decoration/newcanaanflag.rsi
+    state: newcanaanflag
   objectType: Structure
   placementMode: SnapgridCenter
 
@@ -1196,25 +1213,11 @@
   graph: N14Barrels
   startNode: start
   targetNode: barrelblue
-  description: A blue barrel with a warning sign of. Maybe it contains water?
+  description: A blue barrel with a warning sign on. Maybe it contains water?
   hide: false
   icon:
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
     state: blue-closed
-  objectType: Structure
-  placementMode: PlaceFree
-
-- type: construction
-  name: red barrel
-  id: N14RedBarrel
-  graph: N14Barrels
-  startNode: start
-  targetNode: barrelred
-  description: A red barrel with an explosive warning sign on. Better be careful.
-  hide: false
-  icon:
-    sprite: _Nuclear14/Structures/Storage/barrels.rsi
-    state: red-closed
   objectType: Structure
   placementMode: PlaceFree
 
@@ -1252,7 +1255,7 @@
   graph: N14Barrels
   startNode: start
   targetNode: barrelblueopen
-  description: A blue barrel with a warning sign of. The lid is off and you can see inside.
+  description: A blue barrel with a warning sign on. The lid is off and you can see inside.
   hide: false
   icon:
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -1299,20 +1302,6 @@
   icon:
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
     state: black-full
-  objectType: Structure
-  placementMode: PlaceFree
-
-- type: construction
-  name: red barrel
-  id: N14RedBarrelFull
-  graph: N14Barrels
-  startNode: start
-  targetNode: barrelredfull
-  description: A red barrel with an explosive warning sign on. It has a golden liquid inside.
-  hide: false
-  icon:
-    sprite: _Nuclear14/Structures/Storage/barrels.rsi
-    state: red-full
   objectType: Structure
   placementMode: PlaceFree
 

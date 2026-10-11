@@ -1,8 +1,8 @@
-ent-MisfitsFoodSushiMeatRaw = Simple Sushi
+ent-MisfitsFoodSushiRaw = Simple Sushi
     .desc = A simple slice of a fine fish cut on some rice. Refreshing and tasty!
 food-desc-sushi-eat= Tastes fishy, refreshing and like rice
 
-ent-MisfitsFoodSushiMeatCooked = Simple Fried Sushi
+ent-MisfitsFoodSushiCooked = Simple Fried Sushi
     .desc =  A simple slice of mildly fried sushi on some rice, for the ones who want to still eat sushi but without the traditional texture.
 food-desc-sushiCooked-eat= Tastes like fried fish, refreshing and like rice.
 
@@ -16,7 +16,7 @@ food-desc-redFishCutlet-eat= Tastes like raw fish.
 
 ent-N14RedfishCutletCooked = Red Fish Cutlet Cooked
     .desc = A slice of a fine red fish cut. Looks refreshing!
-food-desc-redFishCutletCooked-eat= Tastes like cooked raw fish.
+food-desc-redFishCutletCooked-eat= Tastes like fried fish.
 
 ent-MisfitsFoodSushiFishCarrotRaw = Carrot and Fish Sushi Roll
     .desc = A simple carrot and fish sushi roll. Where the seaweed came from is unknown.
@@ -126,9 +126,13 @@ ent-MisfitsFoodMilkBread = Milk Bread
     .desc = A very fluffy bread with butter glazing on top. Can be cut into slices.
 food-desc-milkBread-eat= Tastes soft, sweet and like bread.
 
-ent-MisfitsFoodLasagna = Lasagna?
+ent-MisfitsFoodLasagna = Lasagna
     .desc = There, happy now, you fat cat?
-food-desc-lasagna-eat= Tastes meaty and like melted cheese with a hint of cancer.
+food-desc-lasagna-eat= Tastes meaty and like melted cheese.
+
+ent-MisfitsFoodLasagnaGood = True Lasagna
+    .desc = It is perfect.
+food-desc-lasagna-eat2= Perfection. You need more.
 
 ent-MisfitsFoodSausageChain = Sausage Chain
     .desc = You are pretty sure you could use it as a whip, which you shouldn’t. Can be cut into sausages.
